@@ -1,0 +1,349 @@
+
+.page1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.page{
+    background-image: url("pencil.avif");
+    background-size: cover;
+    min-height: 480px;
+    min-width: 480px;
+     font-style:italic;
+     font-size: 30px;
+}
+.position1{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+button{
+    font-style: italic;
+    background-color:aqua;
+    background-size: cover;
+    border-style: none;
+    min-height: 50px;
+    min-width: 100px;
+    border-radius: 10px;
+    color:white;
+    padding: 20px;
+}
+.page2{
+    min-height: 480px;
+    min-width: 480px;
+    font-style:italic;
+}
+.pag{
+    min-height: 280px;
+    min-width: 480px;
+    font-style:italic;
+}
+.position2{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 70px;
+}
+.se{
+    background-color: aqua;
+    background-size: contain;
+}
+.service{
+
+    color: black;
+      width: 100vw;
+    display: grid;
+    width: auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+.card1{
+    color: rgb(12, 10, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 10px;
+    margin-top: 10px;
+    
+}
+img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.card2{
+    color: rgb(16, 15, 15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-top: 10px;
+ 
+}
+
+.card3{
+    color: rgb(5, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-top: 10px;
+  
+}
+.card4{
+    color: rgb(8, 8, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    margin-top: 10px;
+ 
+}
+@media only screen and (max-width:580px) {
+    .service{
+          color: black;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+    .se{
+        background-color: aqua;
+        background-size: contain;
+    }
+    
+    
+}
+.page5{
+    background-image: url("sesur.avif");
+    background-size: cover;
+    min-height: 480px;
+    min-width: 480px;
+     font-style:italic;
+     font-size: 30px;
+}
+.card5{
+    background-image: url("card.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: end;
+
+}
+
+.card6{
+    background-image: url("ice.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: end;
+    color: white;
+   
+
+}
+.card7{
+    background-image: url("portfolio-3.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: end;
+    color: white;
+
+}
+.card8{
+    background-image: url("portfolio-4.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: end;
+    color: white;
+   
+}
+.project{
+    display: grid;
+    width: auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    width: 50vw;
+    height: 50vh;
+   
+}
+.card5:hover{
+    border: solid white 10px;
+}
+.card6:hover{
+    border: solid white 10px;
+}
+.card7:hover{
+    border: solid white 10px;
+}
+.card8:hover{
+    border: solid white 10px;
+}
+.pv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+} 
+
+
+ @media only screen and (max-width:580px){
+    .project{
+        display: grid;
+        width: auto;
+        grid-template-columns: auto;
+        height: 100vh;
+        margin-bottom: 170px;
+    }
+    .pv{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100vh;
+       
+    } 
+        
+   
+    }
+    .card5{
+        margin: 10px;
+    }
+    .card6{
+        margin: 10px;
+    }
+    .card7{
+        margin: 10px;
+    }
+    .card8{
+        margin: 10px;
+    }
+   
+   iframe{
+    margin-left: 120px;
+   }
+ 
+ 
+
+ .flex1{
+  
+display: flex;
+flex-direction: column;
+align-items: center;
+align-content: center;
+
+ }
+ .logo1{
+    background-color: aqua;
+    border: solid; 
+    display: flex;
+     flex-direction: row; 
+     justify-content: center;
+      border-radius: 50%; 
+      align-items: center; 
+      height: 50px; 
+      width: 60px;
+}
+.logo2{
+    background-color: aqua;
+    border: solid; 
+    display: flex;
+     flex-direction: row; 
+     justify-content: center;
+      border-radius: 50%; 
+      align-items: center; 
+      height: 50px; 
+      width: 60px;
+
+}
+.logo3{
+    background-color: aqua;
+    border: solid; 
+    display: flex;
+     flex-direction: row; 
+     justify-content: center;
+      border-radius: 50%; 
+      align-items: center; 
+      height: 50px; 
+      width: 60px;
+
+
+}
+.alignment3{
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.click{
+    text-align: center;
+    background-color: aqua;
+    background-size: cover;
+    padding: 40px;
+}
+.cl{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.list1{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+.list2{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+li{
+    padding-left: 20px;
+}
+@media only screen and (max-width:580px){
+    .list1{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-content: center;
+    }
+    .list2{
+    
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        
+       
+    }
+   li{
+    margin: 2px;
+   } 
+}
+a{
+    text-decoration: none;
+}
